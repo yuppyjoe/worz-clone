@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+}
+
+.head-Landing {
+  background-color: #1E3C72;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+button {
+  padding: 0.75rem 1rem;
+  border-radius: 25px;
+  outline: none;
+  border: 1px solid #FFFFFF;
+  cursor: pointer;
+}
+
+p {
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 500;
+}
+
+.active {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: #1E3C72;
+  background-color: #ffffff;
+}
+
+.main {
+  background-color: #1E3C72;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  position: sticky;
+}
+.main_logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_nav__list {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+}
+.main_nav__list__item a {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+.main_nav__list__item a:hover {
+  color: #1E3C72;
+  background-color: #ffffff;
+}
+.main_btn button:hover {
+  background-color: #1E3C72;
+  color: #ffffff;
+}
+
+.landing {
+  width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.landing_left {
+  color: #FFFFFF;
+}
+.landing_left h1 {
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.landing_left__btn {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.landing_left__btn .play {
+  border: none;
+  background-color: transparent;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.landing_left__btn .play:hover {
+  background-color: #e0f1cf;
+  color: #1E3C72;
+}
+.landing_left__btn .start:hover {
+  background-color: #1E3C72;
+  color: #ffffff;
+}
+.landing_left__sponser {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.feature {
+  text-align: center;
+  margin-top: 3rem;
+}
+.feature_list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+/*# sourceMappingURL=style.css.map */
